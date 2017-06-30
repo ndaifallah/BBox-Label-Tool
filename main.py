@@ -7,8 +7,10 @@
 #
 #-------------------------------------------------------------------------------
 from __future__ import division
-from Tkinter import *
-import tkMessageBox
+from tkinter import *
+# from tkinter import tkMessageBox
+# import tkMessageBox
+from tkinter import messagebox as tkMessageBox
 from PIL import Image, ImageTk
 import os
 import glob
